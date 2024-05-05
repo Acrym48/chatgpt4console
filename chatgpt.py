@@ -6,7 +6,7 @@ coll = 0
 try:
 	for i in sys.argv:
 		if coll != 0:
-			argv = sys.argv[coll]
+			argv = sys.argv[coll] + " "
 		coll += 1
 	coll = 0
 	client = Client()
